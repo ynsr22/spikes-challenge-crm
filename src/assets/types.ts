@@ -11,3 +11,29 @@ export interface NavItem {
     avatar: string;
   }
   
+ export interface NavSectionProps {
+    title: string;
+    items: NavItem[];
+    className?: string;
+  }
+
+  export interface NavLinkProps extends NavItem {
+    className?: string;
+  }
+
+export interface ProgressBarProps {
+    percentage: number;
+    className?: string;
+}
+
+export interface DealsWidgetProps {
+    dealsLeft: number;
+    totalLeads: number;
+    className?: string;
+  }
+
+export interface UserProfileWidgetProps {
+    profile: UserProfile;
+    onProfileClick?: () => void;
+    className?: string;
+}

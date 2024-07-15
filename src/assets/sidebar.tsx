@@ -30,7 +30,7 @@ const Sidebar: React.FC = () => {
       <NavSection title="Your Lists" items={listItems} />
       <NavSection title="" items={bottomNavItems} />
       
-      <DealsWidget />
+      <DealsWidget dealsLeft={5} totalLeads={25} />
       <UserProfileWidget profile={userProfile} />
     </div>
   );
