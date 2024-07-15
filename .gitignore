@@ -1,0 +1,62 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build directories
+dist/
+build/
+
+# Output of npm pack
+*.tgz
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Mac system files
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# React specific
+public/static/
+public/build/
+coverage/
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache/
+.parcel-cache/
+
+# Storybook files
+storybook-static/
+
+# SvelteKit build
+.svelte-kit/
+
+# .env files
+.env
+.env.*.local
+
+.vercel
