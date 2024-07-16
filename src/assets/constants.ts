@@ -19,8 +19,18 @@ export const bottomNavItems: NavItem[] = [
   { icon: Settings, label: 'Settings', href: '#' },
 ];
 
-export const userProfile: UserProfile = {
-  name: 'Arthur Bossuyt',
-  email: 'Arthur@squared.studio',
-  avatar: Photo,
-};
+export const userProfiles: UserProfile[] = [
+    {
+      id: '1',
+      name: 'Arthur Bossuyt',
+      email: 'Arthur@squared.studio',
+      avatar: Photo,
+    },
+    {
+      id: '2',
+      name: 'John Doe',
+      email: 'john@example.com',
+      avatar: Photo,
+    },
+    // Add more profiles as needed
+  ];

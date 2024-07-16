@@ -6,6 +6,7 @@ export interface NavItem {
   }
   
   export interface UserProfile {
+    id: string;
     name: string;
     email: string;
     avatar: string;
@@ -32,8 +33,10 @@ export interface DealsWidgetProps {
     className?: string;
   }
 
-export interface UserProfileWidgetProps {
-    profile: UserProfile;
-    onProfileClick?: () => void;
+
+  export interface UserProfileWidgetProps {
+    profiles: UserProfile[];
+    selectedProfileId: string;
+    onProfileSelect: (profileId: string) => void;
     className?: string;
-}
+  }
